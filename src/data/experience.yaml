@@ -1,23 +1,14 @@
-- id: nebula-labs
-  role: Chess Instructor
+- id: monitor
+  role: Monitor de ajedrez
   company: Blanco y Negro Chess Club
-  url: https://nebulalabs.dev
+  url: https://ajedrezblancoynegro.com/
   startDate: 2022-10-01
-  description: Leading frontend development for a design-tools startup, building a collaborative whiteboard product used by 10K+ designers.
-  highlights:
-    - Architected a component library (50+ components) that reduced UI development time by 40%
-    - Improved Lighthouse performance score from 62 to 97 by implementing code splitting and image optimization
-    - Introduced automated visual regression testing, catching 90% of UI bugs before production
-    - Mentored 2 junior developers through structured pair programming sessions
-
-- id: datacraft-intern
+  description: Monitor de ajedrez en infantil y primaria, enfocado en el desarrollo del pensamiento lógico y la resolución de problemas.
+r
+- id: cnio-project
   role: Intern Student
   company: National Cancer Research Centre (CNIO)
-  url: https://datacraft.io
-  startDate: 2023-09-01
-  endDate: 2024-05-15
-  description: Built internal dashboards and data visualization tools for a data analytics consultancy.
-  highlights:
-    - Developed 3 interactive dashboards using D3.js that helped clients reduce report generation time by 60%
-    - Migrated legacy jQuery codebase to modern React, improving maintainability and developer experience
-    - Created an automated data pipeline that processed 50K+ records daily with zero manual intervention
+  url: https://www.cnio.es
+  startDate: 2022-02-01
+  endDate: 2022-09-01
+  description: Aplicación de diferentes técnicas de reducción de dimensionalidad (p. ej., PCA, PCoA, etc.) para comparar su desempeño en conjuntos de datos reales y analizar los resultados para identificar posibles factores de riesgo de crecimiento maligno utilizando datos ómicos.

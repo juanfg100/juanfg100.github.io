@@ -10,7 +10,6 @@ test.describe('Theme Switcher', () => {
   test('clicking Bold changes the theme', async ({ page }) => {
     await page.goto('/');
 
-    // Cambiado para usar solo el selector de bold
     await page.click('[data-set-theme="bold"]');
 
     const theme = await page.locator('html').getAttribute('data-theme');
@@ -20,7 +19,6 @@ test.describe('Theme Switcher', () => {
   test('theme persists after page reload', async ({ page }) => {
     await page.goto('/');
 
-    // Cambiado de mono a bold
     await page.click('[data-set-theme="bold"]');
     expect(await page.locator('html').getAttribute('data-theme')).toBe('bold');
 
@@ -31,10 +29,8 @@ test.describe('Theme Switcher', () => {
 
   test('query param overrides stored theme', async ({ page }) => {
     await page.goto('/');
-    // Cambiado de mono a bold
     await page.click('[data-set-theme="bold"]');
 
-    // Forzamos un valor por URL para probar la lógica del script
     await page.goto('/?theme=bold');
     expect(await page.locator('html').getAttribute('data-theme')).toBe('bold');
   });
@@ -45,7 +41,6 @@ test.describe('Theme Switcher', () => {
     const heroName = page.locator('.hero__name').first();
     await expect(heroName).toBeVisible();
 
-    // Eliminados los pasos que buscaban "classic" o "mono"
     await page.click('[data-set-theme="bold"]');
     await expect(heroName).toBeVisible();
 

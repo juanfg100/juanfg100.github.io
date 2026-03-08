@@ -1,21 +1,22 @@
-- id: coderdojo
-  organization: CoderDojo Madrid
-  role: Lead Mentor
-  url: https://coderdojo.com
-  startDate: 2023-03-01
-  description: Teaching programming fundamentals to kids aged 7–17 through hands-on workshops every weekend.
+- id: seif
+  organization: Asociación de Ciberseguridad de la UAM (SEIF)
+  role: Miembro de la Junta Directiva
+  url: https://uamseif.github.io
+  startDate: 2025-09-01
+  description: Miembro del equipo para el desarrollo de actividades a lo largo del curso, también en colaboración con empresas (Google, Future, etc.)
   contributions:
-    - Designed a beginner-friendly curriculum covering Scratch, Python, and web basics
-    - Mentored 40+ young learners across 50+ sessions
-    - Organized a community hackathon with 80 participants and 5 sponsor companies
+    - Desarrollo de actividades
+    - Gestiones con la universidad y colaboradores.
+    - Comunicación RR.SS.
+    - Gestión de los recursos económicos (Tesorero)
 
-- id: gdg-madrid
-  organization: GDG Madrid
-  role: Co-organizer & Speaker
-  url: https://gdg.community.dev/gdg-madrid
-  startDate: 2024-01-15
-  description: Helping organize tech meetups and conferences for the Google Developer Group community in Madrid.
+- id: tva
+  organization: Televisión Alcarreña (TVA)
+  role: Miembro
+  startDate: 2025-08-01
+  description: Voluntario para diversas labores en despliegues con más de 40000 espectadores.
   contributions:
-    - Co-organized 12 monthly meetups averaging 60+ attendees each
-    - Delivered 3 talks on web performance, Astro, and accessibility
-    - Launched a mentorship program connecting 15 junior developers with senior professionals
+    - Posproducción
+    - Realización (TDT y YouTube)
+    - Grabación
+    - Logística
