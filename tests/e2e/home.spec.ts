@@ -33,8 +33,8 @@ test.describe('Homepage', () => {
   test('navigation links work', async ({ page }) => {
     await page.goto('/');
 
-    // Click "Posts" in navbar
-    await page.click('nav a[href="/posts"]');
-    await expect(page).toHaveURL(/\/posts/);
+    // Click "Experiencia" in navbar
+    await page.click('nav a[href="#experience"]');
+    await expect(page).toHaveURL(/#experience/);
   });
 });
