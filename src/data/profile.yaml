@@ -1,11 +1,11 @@
 - id: juan
-  name: Juan Fernández
-  role: Software Engineer & Creative Technologist
+  name: Juan Fernández Gómez
+  role: Computer Science Student
   tagline: Building clean, accessible digital experiences with curiosity and craft.
   location: Madrid, Spain
-  email: juan@example.dev
-  github: https://github.com/juan
-  linkedin: https://linkedin.com/in/elenanavarro
+  email: juanfg100@gmail.com
+  github: https://github.com/juanfg100
+  linkedin: https://linkedin.com/in/juanfdezgomez
   avatar: /avatar-placeholder.svg
   bio:
     - "I'm a software engineer with a passion for the intersection of design and technology. I love crafting interfaces that feel intuitive and tools that make developers' lives easier."
