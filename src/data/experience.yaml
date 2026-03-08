@@ -1,13 +1,13 @@
 - id: monitor
   role: Monitor de ajedrez
-  company: Blanco y Negro Chess Club
+  company: Club de Ajedrez Blanco y Negro
   url: https://ajedrezblancoynegro.com/
   startDate: 2022-10-01
   description: Monitor de ajedrez en infantil y primaria, enfocado en el desarrollo del pensamiento lógico y la resolución de problemas.
   highlights: []
 
 - id: cnio-project
-  role: Intern Student
+  role: Estudiante de prácticas
   company: National Cancer Research Centre (CNIO)
   url: https://www.cnio.es
   startDate: 2022-02-01
