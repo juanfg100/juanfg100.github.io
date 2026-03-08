@@ -1,13 +1,4 @@
 ---
-/**
- * ThemeSwitcher — Lets users toggle between visual themes.
- *
- * Themes are defined in src/styles/themes/ and listed in src/utils/constants.ts.
- * The selected theme is persisted in localStorage and can be overridden
- * with a ?theme= query parameter (useful for sharing demos).
- *
- * No framework needed — pure vanilla JS.
- */
 import { THEMES } from '../../utils/constants';
 ---
 
@@ -91,28 +82,17 @@ import { THEMES } from '../../utils/constants';
 </style>
 
 <script>
-  /**
-   * Theme Switcher Logic
-   *
-   * Priority:
-   *   1. ?theme= query param (overrides everything, also saves to localStorage)
-   *   2. localStorage value
-   *   3. Default theme ('classic')
-   */
   function initThemeSwitcher() {
-    const DEFAULT = 'classic';
+    const DEFAULT = 'bold'; // Actualizado a bold
     const STORAGE_KEY = 'portfolio-theme';
 
-    // Determine initial theme
     const params = new URLSearchParams(window.location.search);
     const paramTheme = params.get('theme');
     const storedTheme = localStorage.getItem(STORAGE_KEY);
     const theme = paramTheme || storedTheme || DEFAULT;
 
-    // Apply theme
     applyTheme(theme);
 
-    // Set up buttons
     const buttons = document.querySelectorAll<HTMLButtonElement>('[data-set-theme]');
     buttons.forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -127,7 +107,6 @@ import { THEMES } from '../../utils/constants';
       document.documentElement.setAttribute('data-theme', t);
       localStorage.setItem(STORAGE_KEY, t);
 
-      // Update ARIA states on buttons
       const allButtons = document.querySelectorAll<HTMLButtonElement>('[data-set-theme]');
       allButtons.forEach((btn) => {
         const isActive = btn.getAttribute('data-set-theme') === t;
@@ -137,7 +116,6 @@ import { THEMES } from '../../utils/constants';
     }
   }
 
-  // Run on initial load and on Astro page transitions (if any)
   initThemeSwitcher();
   document.addEventListener('astro:after-swap', initThemeSwitcher);
 </script>
