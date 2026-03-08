@@ -26,6 +26,7 @@ test.describe('Homepage', () => {
     await expect(page.locator('#experience')).toBeVisible();
     await expect(page.locator('#education')).toBeVisible();
     await expect(page.locator('#volunteering')).toBeVisible();
+    // Hidden
     await expect(page.locator('#projects')).not.toBeVisible();
     await expect(page.locator('#posts')).not.toBeVisible();
   });
