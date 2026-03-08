@@ -34,7 +34,7 @@ test.describe('Homepage', () => {
     await page.goto('/');
 
     // Click "Experiencia" in navbar
-    await page.click('nav a[href="#experience"]');
+    await page.click('nav a[href="/#experience"]');
     await expect(page).toHaveURL(/#experience/);
   });
 });
