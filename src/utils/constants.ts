@@ -5,7 +5,7 @@
  *     These are used by the Navbar, Footer, SEO meta tags, etc.
  */
 
-export const SITE_TITLE = 'Juan Fernández — Portfolio';
+export const SITE_TITLE = 'Juan Fernández Gómez';
 export const SITE_DESCRIPTION =
   'Software Engineer & Creative Technologist. Building clean, accessible web experiences.';
 
