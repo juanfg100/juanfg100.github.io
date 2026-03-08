@@ -50,8 +50,9 @@ const latestPosts = allPosts
     <VolunteeringList />
   </Section>
 
+  {/*
   {/* ─── Projects ─── */}
-  <Section id="projects" title="Proyectos" subtitle="" hidden>
+  <Section id="projects" title="Proyectos" subtitle="">
     <ProjectsGrid featured />
     <div class="section-cta">
       <Button href="/projects" variant="outline" size="sm">View all projects →</Button>
@@ -59,7 +60,7 @@ const latestPosts = allPosts
   </Section>
 
   {/* ─── Latest Posts ─── */}
-  <Section id="posts" title="Latest Posts" subtitle="Thoughts, learnings, and ideas" hidden>
+  <Section id="posts" title="Latest Posts" subtitle="Thoughts, learnings, and ideas">
     <div class="posts-grid">
       {
         latestPosts.map((post) => (
@@ -77,6 +78,8 @@ const latestPosts = allPosts
       <Button href="/posts" variant="outline" size="sm">View all posts →</Button>
     </div>
   </Section>
+  */}
+  
 </BaseLayout>
 
 <style>
