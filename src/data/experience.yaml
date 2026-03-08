@@ -4,6 +4,7 @@
   url: https://ajedrezblancoynegro.com/
   startDate: 2022-10-01
   description: Monitor de ajedrez en infantil y primaria, enfocado en el desarrollo del pensamiento lógico y la resolución de problemas.
+  highlights:
 
 - id: cnio-project
   role: Intern Student
@@ -12,3 +13,4 @@
   startDate: 2022-02-01
   endDate: 2022-09-01
   description: Aplicación de diferentes técnicas de reducción de dimensionalidad (p. ej., PCA, PCoA, etc.) para comparar su desempeño en conjuntos de datos reales y analizar los resultados para identificar posibles factores de riesgo de crecimiento maligno utilizando datos ómicos.
+  highlights:
