@@ -11,9 +11,10 @@ export const SITE_DESCRIPTION =
 
 /** Navigation links shown in the Navbar */
 export const NAV_LINKS = [
-  { label: 'Home', href: '/' },
-  { label: 'Posts', href: '/posts' },
-  { label: 'Projects', href: '/projects' },
+  { label: 'Inicio', href: '/' },
+  { label: 'Experiencia', href: '/#experience' },
+  { label: 'Educación', href: '/#education' },
+  { label: 'Voluntariado', href: '/#volunteering' },
 ] as const;
 
 /** Available themes — must match filenames in src/styles/themes/ */
