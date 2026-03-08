@@ -28,7 +28,7 @@ export const THEMES = [
   { id: 'math', label: 'Math' },
 ] as const;
 
-export const DEFAULT_THEME = 'classic';
+export const DEFAULT_THEME = 'bold';
 
 /** OG Image fallback */
 export const OG_IMAGE = '/og-image.png';
