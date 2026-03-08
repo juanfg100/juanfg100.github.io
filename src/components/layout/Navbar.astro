@@ -8,7 +8,6 @@
  * - Uses vanilla JS for the mobile toggle (no frameworks)
  */
 import { NAV_LINKS, SITE_TITLE } from '../../utils/constants';
-import ThemeSwitcher from '../ui/ThemeSwitcher.astro';
 
 const currentPath = Astro.url.pathname;
 ---
@@ -28,10 +27,6 @@ const currentPath = Astro.url.pathname;
       >
         <span class="navbar__hamburger" aria-hidden="true"></span>
       </button>
-    </div>
-
-    <div class="navbar__actions">
-      <ThemeSwitcher />
     </div>
 
     <div class="navbar__menu" id="nav-menu">
@@ -98,15 +93,6 @@ const currentPath = Astro.url.pathname;
     color: var(--color-accent);
   }
 
-  .navbar__actions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: var(--space-xs);
-    order: 3;
-  }
-
   /* Desktop menu */
   .navbar__menu {
     display: flex;
@@ -132,11 +118,6 @@ const currentPath = Astro.url.pathname;
       order: 2;
     }
 
-    .navbar__actions {
-      order: 3;
-      width: 100%; /* Forces themes to the next line */
-      margin-top: var(--space-xs);
-    }
   }
 
   @media (min-width: 1000px) {
@@ -144,13 +125,6 @@ const currentPath = Astro.url.pathname;
       flex-wrap: nowrap;
       height: var(--nav-height);
       padding-block: 0;
-    }
-
-    .navbar__actions {
-      order: 2;
-      width: auto;
-      margin-top: 0;
-      margin-inline: var(--space-md);
     }
 
     .navbar__menu {
