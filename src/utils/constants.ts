@@ -18,14 +18,7 @@ export const NAV_LINKS = [
 
 /** Available themes — must match filenames in src/styles/themes/ */
 export const THEMES = [
-  { id: 'classic', label: 'Classic' },
   { id: 'bold', label: 'Bold' },
-  { id: 'mono', label: 'Mono' },
-  { id: 'retro', label: 'Retro Mac' },
-  { id: 'futura', label: 'Futura' },
-  { id: 'finance', label: 'Finance' },
-  { id: 'quant', label: 'Quant' },
-  { id: 'math', label: 'Math' },
 ] as const;
 
 export const DEFAULT_THEME = 'bold';
