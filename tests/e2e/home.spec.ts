@@ -26,8 +26,8 @@ test.describe('Homepage', () => {
     await expect(page.locator('#experience')).toBeVisible();
     await expect(page.locator('#education')).toBeVisible();
     await expect(page.locator('#volunteering')).toBeVisible();
-    await expect(page.locator('#projects')).toBeVisible();
-    await expect(page.locator('#posts')).toBeVisible();
+    await expect(page.locator('#projects')).not.toBeVisible();
+    await expect(page.locator('#posts')).not.toBeVisible();
   });
 
   test('navigation links work', async ({ page }) => {
