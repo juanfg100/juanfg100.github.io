@@ -1,23 +1,24 @@
 - id: juan
   name: Juan Fernández Gómez
   role: Estudiante de Ingeniería Informática
-  tagline: Building clean, accessible digital experiences with curiosity and craft.
-  location: Madrid, Spain
+  tagline: Resolviendo problemas a través del software, con la precisión del ajedrez y el rigor de la ingeniería.
+  location: Madrid, España
   email: juanfg100@gmail.com
   github: https://github.com/juanfg100
   linkedin: https://linkedin.com/in/juanfdezgomez
   avatar: /avatar-placeholder.svg
   bio:
-    - "I'm a software engineer with a passion for the intersection of design and technology. I love crafting interfaces that feel intuitive and tools that make developers' lives easier."
-    - "Currently focused on frontend architecture, design systems, and creative coding. When I'm not writing code, you'll find me mentoring at local tech communities, experimenting with generative art, or hiking in the Sierra de Guadarrama."
+    - "Soy estudiante de Ingeniería Informática en la Universidad Autónoma de Madrid, con interés en el desarrollo de software, el análisis de datos y la ciberseguridad. Me gusta entender cómo funcionan los sistemas y aplicar la tecnología para resolver problemas reales."
+    - "Actualmente estoy ampliando mis conocimientos a través de proyectos, formación técnica y participación en actividades universitarias, con el objetivo de seguir creciendo como desarrollador."
   skills:
-    - TypeScript
-    - React
-    - Astro
-    - Node.js
+    - C
     - Python
-    - Figma
-    - Accessibility
-    - Design Systems
-    - Open Source
-    - Technical Writing
+    - Java
+    - SQL
+    - R
+    - HTML
+    - Git/Github
+    - Linux
+    - Data Analysis
+    - Algorithms
+    - roblem Solving
